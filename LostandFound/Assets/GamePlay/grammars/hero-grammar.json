@@ -1,0 +1,13 @@
+{
+    "oldname": [ "Arjun", "Yuuma", "Darcy", "Mia", "Chiaki", "Izzi", "Azra", "Lina" ],
+    "oldstory": [ "hero the #oldname# from over there" ],
+    "gamestart": [ "Welcome to the #townadj# town of #townname#. You are a journeyman #occupation# #playergoal#. You have heard the townspeople of #townname# are #townprob#, you're sure that it isn't something that couldn't be fixed with #foodserving#." ],
+    "playergoal": [ "seeking fame and fortune", "looking to make your way in the world", "ready to prove to your parents that this is your profession" ],
+    "foodserving":[ "cup of soup", "draught of ale", "nice salad" ],
+    "occupation": [ "soupsmith", "brewer", "salad-stylist" ],
+    "townadj": [ "sleepy", "bustling", "quaint", "lovely" ],
+    "townname": [ "#townnamepre##townnamepost#" ],
+    "townnamepre": [ "Batten,York","New","Alb","Barry","Ville" ],
+    "townnamepost": ["burg","town","","ion","neuve","burry"]
+    "townprob": ["wistful","filled with unrest","depressed","overly romantic"]
+}
