@@ -5,19 +5,19 @@ public class MouseHandler : MonoBehaviour
 {
     public float mouseSensitivity = 100f;
     public Transform playerBody;
-    public bool lockCursor = false;
+    public bool lockCursor = true;
 
     float xRotation = 0f;
 
     void Start()
     {
-        //Cursor.lockState = CursorLockMode.Locked;
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     void Update()
     {
-        if (lockCursor)
-        {
+        //if (lockCursor)
+       // {
             float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime;
             float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity * Time.deltaTime;
 
@@ -26,7 +26,7 @@ public class MouseHandler : MonoBehaviour
 
             transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
             playerBody.Rotate(Vector3.up * mouseX);
-        }
+       // }
 
 
     }
