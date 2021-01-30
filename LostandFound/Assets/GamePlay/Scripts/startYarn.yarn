@@ -1,14 +1,35 @@
 title: Start2
 tags: 
 colorID: 1
-position: 679,375
+position: 765,382
 ---
-Behold Hello there!
+You have the heard of an explorer, surely you will find the way out.
+//<<set $personality = explorer>>
+[[ I know I will!: |endstart]] ]]
 ===
 title: Start
 tags: 
 colorID: 0
-position: 410,360
+position: 406,346
 ---
-Start
+You find ourself in a strange place. How did you get here and a better question -- How do you leave?
+
+[[ I will explore |Start2]] 
+[[ Maybe its not so bad here? |Start3]]
+===
+title: Start3
+tags: 
+colorID: 0
+position: 765,108
+---
+You will have to examine the area to evaluate if you're safe to stay here. 
+//<<set $personality = homebody>>
+[[ Definitely Important, I can do this! |endstart]]
+===
+title: endstart
+tags: 
+colorID: 0
+position: 1156,233
+---
+Maybe while you are getting your bearings you'll be able to figure out how you got here.
 ===
