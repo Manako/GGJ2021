@@ -2,8 +2,6 @@
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <LangVersion>latest</LangVersion>
-    <CscToolPath>C:\Program Files\Unity\Hub\Editor\2019.3.0b10\Editor\Data\Tools\RoslynScripts</CscToolPath>
-    <CscToolExe>unity_csc.bat</CscToolExe>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -49,10 +47,14 @@
   <PropertyGroup>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <UnityProjectGenerator>Unity/VSTU</UnityProjectGenerator>
+    <UnityProjectGeneratorVersion>4.8.2.0</UnityProjectGeneratorVersion>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
     <UnityVersion>2019.3.0b10</UnityVersion>
   </PropertyGroup>
+  <ItemGroup>
+    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
+  </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2019.3.0b10\Editor\Data\Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -94,46 +96,46 @@
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
     <Reference Include="Unity.XR.Management">
-      <HintPath>C:/Users/akirk/Documents/GitHub/GGJ2021/LostandFound/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
+      <HintPath>C:/Users/matiz/Dev/GGJ2021/LostandFound/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/akirk/Documents/GitHub/GGJ2021/LostandFound/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/matiz/Dev/GGJ2021/LostandFound/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Subsystem.Registration">
-      <HintPath>C:/Users/akirk/Documents/GitHub/GGJ2021/LostandFound/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
+      <HintPath>C:/Users/matiz/Dev/GGJ2021/LostandFound/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/akirk/Documents/GitHub/GGJ2021/LostandFound/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Users/matiz/Dev/GGJ2021/LostandFound/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="YarnSpinner.Unity.Editor">
-      <HintPath>C:/Users/akirk/Documents/GitHub/GGJ2021/LostandFound/Library/ScriptAssemblies/YarnSpinner.Unity.Editor.dll</HintPath>
+      <HintPath>C:/Users/matiz/Dev/GGJ2021/LostandFound/Library/ScriptAssemblies/YarnSpinner.Unity.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/akirk/Documents/GitHub/GGJ2021/LostandFound/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/matiz/Dev/GGJ2021/LostandFound/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/akirk/Documents/GitHub/GGJ2021/LostandFound/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/matiz/Dev/GGJ2021/LostandFound/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/akirk/Documents/GitHub/GGJ2021/LostandFound/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/matiz/Dev/GGJ2021/LostandFound/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/akirk/Documents/GitHub/GGJ2021/LostandFound/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/matiz/Dev/GGJ2021/LostandFound/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Management.Editor">
-      <HintPath>C:/Users/akirk/Documents/GitHub/GGJ2021/LostandFound/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
+      <HintPath>C:/Users/matiz/Dev/GGJ2021/LostandFound/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/akirk/Documents/GitHub/GGJ2021/LostandFound/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/Users/matiz/Dev/GGJ2021/LostandFound/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="YarnSpinner.Unity">
-      <HintPath>C:/Users/akirk/Documents/GitHub/GGJ2021/LostandFound/Library/ScriptAssemblies/YarnSpinner.Unity.dll</HintPath>
+      <HintPath>C:/Users/matiz/Dev/GGJ2021/LostandFound/Library/ScriptAssemblies/YarnSpinner.Unity.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/akirk/Documents/GitHub/GGJ2021/LostandFound/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/matiz/Dev/GGJ2021/LostandFound/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/akirk/Documents/GitHub/GGJ2021/LostandFound/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/matiz/Dev/GGJ2021/LostandFound/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.0b10/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -313,34 +315,34 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.0b10/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
     </Reference>
     <Reference Include="Antlr4.Runtime.Standard">
-      <HintPath>C:/Users/akirk/Documents/GitHub/GGJ2021/LostandFound/Library/PackageCache/dev.yarnspinner.unity@7e42641d65c648238a6971799ec5293bfdc8ac79/Runtime/DLLs/Antlr4.Runtime.Standard.dll</HintPath>
+      <HintPath>C:/Users/matiz/Dev/GGJ2021/LostandFound/Library/PackageCache/dev.yarnspinner.unity@7e42641d65c648238a6971799ec5293bfdc8ac79/Runtime/DLLs/Antlr4.Runtime.Standard.dll</HintPath>
     </Reference>
     <Reference Include="CsvHelper">
-      <HintPath>C:/Users/akirk/Documents/GitHub/GGJ2021/LostandFound/Library/PackageCache/dev.yarnspinner.unity@7e42641d65c648238a6971799ec5293bfdc8ac79/Runtime/DLLs/CsvHelper.dll</HintPath>
+      <HintPath>C:/Users/matiz/Dev/GGJ2021/LostandFound/Library/PackageCache/dev.yarnspinner.unity@7e42641d65c648238a6971799ec5293bfdc8ac79/Runtime/DLLs/CsvHelper.dll</HintPath>
     </Reference>
     <Reference Include="Google.Protobuf">
-      <HintPath>C:/Users/akirk/Documents/GitHub/GGJ2021/LostandFound/Library/PackageCache/dev.yarnspinner.unity@7e42641d65c648238a6971799ec5293bfdc8ac79/Runtime/DLLs/Google.Protobuf.dll</HintPath>
+      <HintPath>C:/Users/matiz/Dev/GGJ2021/LostandFound/Library/PackageCache/dev.yarnspinner.unity@7e42641d65c648238a6971799ec5293bfdc8ac79/Runtime/DLLs/Google.Protobuf.dll</HintPath>
     </Reference>
     <Reference Include="System.Buffers">
-      <HintPath>C:/Users/akirk/Documents/GitHub/GGJ2021/LostandFound/Library/PackageCache/dev.yarnspinner.unity@7e42641d65c648238a6971799ec5293bfdc8ac79/Runtime/DLLs/System.Buffers.dll</HintPath>
+      <HintPath>C:/Users/matiz/Dev/GGJ2021/LostandFound/Library/PackageCache/dev.yarnspinner.unity@7e42641d65c648238a6971799ec5293bfdc8ac79/Runtime/DLLs/System.Buffers.dll</HintPath>
     </Reference>
     <Reference Include="System.Memory">
-      <HintPath>C:/Users/akirk/Documents/GitHub/GGJ2021/LostandFound/Library/PackageCache/dev.yarnspinner.unity@7e42641d65c648238a6971799ec5293bfdc8ac79/Runtime/DLLs/System.Memory.dll</HintPath>
+      <HintPath>C:/Users/matiz/Dev/GGJ2021/LostandFound/Library/PackageCache/dev.yarnspinner.unity@7e42641d65c648238a6971799ec5293bfdc8ac79/Runtime/DLLs/System.Memory.dll</HintPath>
     </Reference>
     <Reference Include="System.Numerics.Vectors">
-      <HintPath>C:/Users/akirk/Documents/GitHub/GGJ2021/LostandFound/Library/PackageCache/dev.yarnspinner.unity@7e42641d65c648238a6971799ec5293bfdc8ac79/Runtime/DLLs/System.Numerics.Vectors.dll</HintPath>
+      <HintPath>C:/Users/matiz/Dev/GGJ2021/LostandFound/Library/PackageCache/dev.yarnspinner.unity@7e42641d65c648238a6971799ec5293bfdc8ac79/Runtime/DLLs/System.Numerics.Vectors.dll</HintPath>
     </Reference>
     <Reference Include="System.Reflection.TypeExtensions">
-      <HintPath>C:/Users/akirk/Documents/GitHub/GGJ2021/LostandFound/Library/PackageCache/dev.yarnspinner.unity@7e42641d65c648238a6971799ec5293bfdc8ac79/Runtime/DLLs/System.Reflection.TypeExtensions.dll</HintPath>
+      <HintPath>C:/Users/matiz/Dev/GGJ2021/LostandFound/Library/PackageCache/dev.yarnspinner.unity@7e42641d65c648238a6971799ec5293bfdc8ac79/Runtime/DLLs/System.Reflection.TypeExtensions.dll</HintPath>
     </Reference>
     <Reference Include="System.Runtime.CompilerServices.Unsafe">
-      <HintPath>C:/Users/akirk/Documents/GitHub/GGJ2021/LostandFound/Library/PackageCache/dev.yarnspinner.unity@7e42641d65c648238a6971799ec5293bfdc8ac79/Runtime/DLLs/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+      <HintPath>C:/Users/matiz/Dev/GGJ2021/LostandFound/Library/PackageCache/dev.yarnspinner.unity@7e42641d65c648238a6971799ec5293bfdc8ac79/Runtime/DLLs/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="YarnSpinner.Compiler">
-      <HintPath>C:/Users/akirk/Documents/GitHub/GGJ2021/LostandFound/Library/PackageCache/dev.yarnspinner.unity@7e42641d65c648238a6971799ec5293bfdc8ac79/Runtime/DLLs/YarnSpinner.Compiler.dll</HintPath>
+      <HintPath>C:/Users/matiz/Dev/GGJ2021/LostandFound/Library/PackageCache/dev.yarnspinner.unity@7e42641d65c648238a6971799ec5293bfdc8ac79/Runtime/DLLs/YarnSpinner.Compiler.dll</HintPath>
     </Reference>
     <Reference Include="YarnSpinner">
-      <HintPath>C:/Users/akirk/Documents/GitHub/GGJ2021/LostandFound/Library/PackageCache/dev.yarnspinner.unity@7e42641d65c648238a6971799ec5293bfdc8ac79/Runtime/DLLs/YarnSpinner.dll</HintPath>
+      <HintPath>C:/Users/matiz/Dev/GGJ2021/LostandFound/Library/PackageCache/dev.yarnspinner.unity@7e42641d65c648238a6971799ec5293bfdc8ac79/Runtime/DLLs/YarnSpinner.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.0b10/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
