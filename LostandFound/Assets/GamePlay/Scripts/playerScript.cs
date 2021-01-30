@@ -5,8 +5,6 @@ using UnityEngine;
 public class playerScript : MonoBehaviour
 
 {
-    [SerializeField] string yarnStartNode = "Start";
-    [SerializeField] YarnProgram yarnDialog;
     public CharacterController pControls;
     public float speed = 12f;
 
@@ -18,8 +16,6 @@ public class playerScript : MonoBehaviour
     public Transform groundCheck;
     public float groundDistance = 0.4f;
     public LayerMask groundMask;
-
-    public float interactionRadius = 2.0f;
 
 
     private void Start()
@@ -50,26 +46,6 @@ public class playerScript : MonoBehaviour
 
         velocity.y += gravity * Time.deltaTime;
         pControls.Move(velocity * Time.deltaTime);
-
-        // Detect if we want to start a conversation
-        if (Input.GetButtonDown("Fire2"))
-        {
-            CheckForNearbyNPC();
-        }
-    }
-    public void CheckForNearbyNPC()
-    {
-        var allParticipants = new List<NPC>(FindObjectsOfType<NPC>());
-        var target = allParticipants.Find(delegate (NPC p) {
-            return string.IsNullOrEmpty(p.talkToNode) == false && // has a conversation node?
-            (p.transform.position - this.transform.position)// is in range?
-            .magnitude <= interactionRadius;
-        });
-        if (target != null)
-        {
-            // Kick off the dialogue at this node.
-           // FindObjectOfType<DialogueRunner>().StartDialogue(target.talkToNode);
-        }
     }
 }
 
