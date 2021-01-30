@@ -5,6 +5,8 @@ using UnityEngine;
 public class playerScript : MonoBehaviour
 
 {
+    [SerializeField] string yarnStartNode = "Start";
+    [SerializeField] YarnProgram yarnDialog;
     public CharacterController pControls;
     public float speed = 12f;
 
@@ -17,6 +19,8 @@ public class playerScript : MonoBehaviour
     public float groundDistance = 0.4f;
     public LayerMask groundMask;
 
+    public float interactionRadius = 2.0f;
+
 
     private void Start()
     {
@@ -27,7 +31,7 @@ public class playerScript : MonoBehaviour
     {
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
 
-        if(isGrounded && velocity.y < 0)
+        if (isGrounded && velocity.y < 0)
         {
             velocity.y = -2f;
         }
@@ -39,13 +43,33 @@ public class playerScript : MonoBehaviour
 
         pControls.Move(move * speed * Time.deltaTime);
 
-        if(Input.GetButtonDown("Jump") && isGrounded)
+        if (Input.GetButtonDown("Jump") && isGrounded)
         {
             velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
         }
 
         velocity.y += gravity * Time.deltaTime;
         pControls.Move(velocity * Time.deltaTime);
+
+        // Detect if we want to start a conversation
+        if (Input.GetButtonDown("Fire2"))
+        {
+            CheckForNearbyNPC();
+        }
+    }
+    public void CheckForNearbyNPC()
+    {
+        var allParticipants = new List<NPC>(FindObjectsOfType<NPC>());
+        var target = allParticipants.Find(delegate (NPC p) {
+            return string.IsNullOrEmpty(p.talkToNode) == false && // has a conversation node?
+            (p.transform.position - this.transform.position)// is in range?
+            .magnitude <= interactionRadius;
+        });
+        if (target != null)
+        {
+            // Kick off the dialogue at this node.
+            // FindObjectOfType<DialogueRunner>().StartDialogue(target.talkToNode);
+        }
     }
 }
 
