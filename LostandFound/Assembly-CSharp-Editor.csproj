@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{1BA86F64-9B19-DE23-6AD3-F4FC3EE658AF}</ProjectGuid>
+    <ProjectGuid>{69C13489-B2DB-1EAF-23CF-93EC5DBA51E5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -64,52 +64,52 @@
   <ItemGroup>
     <Compile Include="Assets\JSON\Editor\JSONChecker.cs" />
     <Reference Include="UnityEditor.TestRunner">
-      <HintPath>D:/UnityProjs/Procjam/Procjam2020/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+      <HintPath>C:/Users/akirk/Documents/GitHub/GGJ2021/LostandFound/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-      <HintPath>D:/UnityProjs/Procjam/Procjam2020/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+      <HintPath>C:/Users/akirk/Documents/GitHub/GGJ2021/LostandFound/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Management">
-      <HintPath>D:/UnityProjs/Procjam/Procjam2020/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
+      <HintPath>C:/Users/akirk/Documents/GitHub/GGJ2021/LostandFound/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>D:/UnityProjs/Procjam/Procjam2020/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/akirk/Documents/GitHub/GGJ2021/LostandFound/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Subsystem.Registration">
-      <HintPath>D:/UnityProjs/Procjam/Procjam2020/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
+      <HintPath>C:/Users/akirk/Documents/GitHub/GGJ2021/LostandFound/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>D:/UnityProjs/Procjam/Procjam2020/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Users/akirk/Documents/GitHub/GGJ2021/LostandFound/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="YarnSpinner.Unity.Editor">
-      <HintPath>D:/UnityProjs/Procjam/Procjam2020/Library/ScriptAssemblies/YarnSpinner.Unity.Editor.dll</HintPath>
+      <HintPath>C:/Users/akirk/Documents/GitHub/GGJ2021/LostandFound/Library/ScriptAssemblies/YarnSpinner.Unity.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/UnityProjs/Procjam/Procjam2020/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/akirk/Documents/GitHub/GGJ2021/LostandFound/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>D:/UnityProjs/Procjam/Procjam2020/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/akirk/Documents/GitHub/GGJ2021/LostandFound/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>D:/UnityProjs/Procjam/Procjam2020/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/akirk/Documents/GitHub/GGJ2021/LostandFound/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>D:/UnityProjs/Procjam/Procjam2020/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/akirk/Documents/GitHub/GGJ2021/LostandFound/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Management.Editor">
-      <HintPath>D:/UnityProjs/Procjam/Procjam2020/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
+      <HintPath>C:/Users/akirk/Documents/GitHub/GGJ2021/LostandFound/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>D:/UnityProjs/Procjam/Procjam2020/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/Users/akirk/Documents/GitHub/GGJ2021/LostandFound/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="YarnSpinner.Unity">
-      <HintPath>D:/UnityProjs/Procjam/Procjam2020/Library/ScriptAssemblies/YarnSpinner.Unity.dll</HintPath>
+      <HintPath>C:/Users/akirk/Documents/GitHub/GGJ2021/LostandFound/Library/ScriptAssemblies/YarnSpinner.Unity.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/UnityProjs/Procjam/Procjam2020/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/akirk/Documents/GitHub/GGJ2021/LostandFound/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>D:/UnityProjs/Procjam/Procjam2020/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/akirk/Documents/GitHub/GGJ2021/LostandFound/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.0b10/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -304,37 +304,37 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="Antlr4.Runtime.Standard">
-      <HintPath>D:/UnityProjs/Procjam/Procjam2020/Library/PackageCache/dev.yarnspinner.unity@7e42641d65c648238a6971799ec5293bfdc8ac79/Runtime/DLLs/Antlr4.Runtime.Standard.dll</HintPath>
+      <HintPath>C:/Users/akirk/Documents/GitHub/GGJ2021/LostandFound/Library/PackageCache/dev.yarnspinner.unity@7e42641d65c648238a6971799ec5293bfdc8ac79/Runtime/DLLs/Antlr4.Runtime.Standard.dll</HintPath>
     </Reference>
     <Reference Include="CsvHelper">
-      <HintPath>D:/UnityProjs/Procjam/Procjam2020/Library/PackageCache/dev.yarnspinner.unity@7e42641d65c648238a6971799ec5293bfdc8ac79/Runtime/DLLs/CsvHelper.dll</HintPath>
+      <HintPath>C:/Users/akirk/Documents/GitHub/GGJ2021/LostandFound/Library/PackageCache/dev.yarnspinner.unity@7e42641d65c648238a6971799ec5293bfdc8ac79/Runtime/DLLs/CsvHelper.dll</HintPath>
     </Reference>
     <Reference Include="Google.Protobuf">
-      <HintPath>D:/UnityProjs/Procjam/Procjam2020/Library/PackageCache/dev.yarnspinner.unity@7e42641d65c648238a6971799ec5293bfdc8ac79/Runtime/DLLs/Google.Protobuf.dll</HintPath>
+      <HintPath>C:/Users/akirk/Documents/GitHub/GGJ2021/LostandFound/Library/PackageCache/dev.yarnspinner.unity@7e42641d65c648238a6971799ec5293bfdc8ac79/Runtime/DLLs/Google.Protobuf.dll</HintPath>
     </Reference>
     <Reference Include="System.Buffers">
-      <HintPath>D:/UnityProjs/Procjam/Procjam2020/Library/PackageCache/dev.yarnspinner.unity@7e42641d65c648238a6971799ec5293bfdc8ac79/Runtime/DLLs/System.Buffers.dll</HintPath>
+      <HintPath>C:/Users/akirk/Documents/GitHub/GGJ2021/LostandFound/Library/PackageCache/dev.yarnspinner.unity@7e42641d65c648238a6971799ec5293bfdc8ac79/Runtime/DLLs/System.Buffers.dll</HintPath>
     </Reference>
     <Reference Include="System.Memory">
-      <HintPath>D:/UnityProjs/Procjam/Procjam2020/Library/PackageCache/dev.yarnspinner.unity@7e42641d65c648238a6971799ec5293bfdc8ac79/Runtime/DLLs/System.Memory.dll</HintPath>
+      <HintPath>C:/Users/akirk/Documents/GitHub/GGJ2021/LostandFound/Library/PackageCache/dev.yarnspinner.unity@7e42641d65c648238a6971799ec5293bfdc8ac79/Runtime/DLLs/System.Memory.dll</HintPath>
     </Reference>
     <Reference Include="System.Numerics.Vectors">
-      <HintPath>D:/UnityProjs/Procjam/Procjam2020/Library/PackageCache/dev.yarnspinner.unity@7e42641d65c648238a6971799ec5293bfdc8ac79/Runtime/DLLs/System.Numerics.Vectors.dll</HintPath>
+      <HintPath>C:/Users/akirk/Documents/GitHub/GGJ2021/LostandFound/Library/PackageCache/dev.yarnspinner.unity@7e42641d65c648238a6971799ec5293bfdc8ac79/Runtime/DLLs/System.Numerics.Vectors.dll</HintPath>
     </Reference>
     <Reference Include="System.Reflection.TypeExtensions">
-      <HintPath>D:/UnityProjs/Procjam/Procjam2020/Library/PackageCache/dev.yarnspinner.unity@7e42641d65c648238a6971799ec5293bfdc8ac79/Runtime/DLLs/System.Reflection.TypeExtensions.dll</HintPath>
+      <HintPath>C:/Users/akirk/Documents/GitHub/GGJ2021/LostandFound/Library/PackageCache/dev.yarnspinner.unity@7e42641d65c648238a6971799ec5293bfdc8ac79/Runtime/DLLs/System.Reflection.TypeExtensions.dll</HintPath>
     </Reference>
     <Reference Include="System.Runtime.CompilerServices.Unsafe">
-      <HintPath>D:/UnityProjs/Procjam/Procjam2020/Library/PackageCache/dev.yarnspinner.unity@7e42641d65c648238a6971799ec5293bfdc8ac79/Runtime/DLLs/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+      <HintPath>C:/Users/akirk/Documents/GitHub/GGJ2021/LostandFound/Library/PackageCache/dev.yarnspinner.unity@7e42641d65c648238a6971799ec5293bfdc8ac79/Runtime/DLLs/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="YarnSpinner.Compiler">
-      <HintPath>D:/UnityProjs/Procjam/Procjam2020/Library/PackageCache/dev.yarnspinner.unity@7e42641d65c648238a6971799ec5293bfdc8ac79/Runtime/DLLs/YarnSpinner.Compiler.dll</HintPath>
+      <HintPath>C:/Users/akirk/Documents/GitHub/GGJ2021/LostandFound/Library/PackageCache/dev.yarnspinner.unity@7e42641d65c648238a6971799ec5293bfdc8ac79/Runtime/DLLs/YarnSpinner.Compiler.dll</HintPath>
     </Reference>
     <Reference Include="YarnSpinner">
-      <HintPath>D:/UnityProjs/Procjam/Procjam2020/Library/PackageCache/dev.yarnspinner.unity@7e42641d65c648238a6971799ec5293bfdc8ac79/Runtime/DLLs/YarnSpinner.dll</HintPath>
+      <HintPath>C:/Users/akirk/Documents/GitHub/GGJ2021/LostandFound/Library/PackageCache/dev.yarnspinner.unity@7e42641d65c648238a6971799ec5293bfdc8ac79/Runtime/DLLs/YarnSpinner.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>D:/UnityProjs/Procjam/Procjam2020/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+      <HintPath>C:/Users/akirk/Documents/GitHub/GGJ2021/LostandFound/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.0b10/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -693,8 +693,12 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{B8B31CB4-7CF3-366D-5174-300EFE379FFE}</Project>
+      <Project>{1812A509-484A-C9FC-1D26-6471FDF1C028}</Project>
       <Name>Assembly-CSharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="YarnSpinner.Unity.Example.csproj">
+      <Project>{D71B06CE-9196-EC69-7131-AECEA5728615}</Project>
+      <Name>YarnSpinner.Unity.Example</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

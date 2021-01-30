@@ -1,0 +1,479 @@
+# Blender MTL File: 'CartoonDungeonPropsAndTilesetPack1.4.1.blend'
+# Material Count: 41
+
+newmtl Black
+Ns 179.999996
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl Bowl
+Ns 179.999996
+Ka 1.000000 1.000000 1.000000
+Kd 0.401645 0.290106 0.132771
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd F:\\Dropbox\\Overaction Game Studio\\Assets 2020 - Overaction\\Extracteds\\ModularCartoonAdventurePropsAndTilesetPack-v1.4\\Overaction\\ModularCartoonAdventurePropsAndTilesetPack\\Textures\\Wood_textura.png
+map_d F:\\Dropbox\\Overaction Game Studio\\Assets 2020 - Overaction\\Extracteds\\ModularCartoonAdventurePropsAndTilesetPack-v1.4\\Overaction\\ModularCartoonAdventurePropsAndTilesetPack\\Textures\\Wood_textura.png
+
+newmtl Bown
+Ns 179.999996
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd F:\\Dropbox\\Overaction Game Studio\\Assets 2020 - Overaction\\Extracteds\\ModularCartoonAdventurePropsAndTilesetPack-v1.4\\Overaction\\ModularCartoonAdventurePropsAndTilesetPack\\Textures\\Bowl.png
+map_d F:\\Dropbox\\Overaction Game Studio\\Assets 2020 - Overaction\\Extracteds\\ModularCartoonAdventurePropsAndTilesetPack-v1.4\\Overaction\\ModularCartoonAdventurePropsAndTilesetPack\\Textures\\Bowl.png
+
+newmtl Bush
+Ns 179.999996
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd F:\\Dropbox\\Overaction Game Studio\\Assets 2020 - Overaction\\Extracteds\\ModularCartoonAdventurePropsAndTilesetPack-v1.4\\Overaction\\ModularCartoonAdventurePropsAndTilesetPack\\Textures\\BushDiff.png
+map_d F:\\Dropbox\\Overaction Game Studio\\Assets 2020 - Overaction\\Extracteds\\ModularCartoonAdventurePropsAndTilesetPack-v1.4\\Overaction\\ModularCartoonAdventurePropsAndTilesetPack\\Textures\\BushDiff.png
+
+newmtl ButtonTriggerGreen
+Ns 179.999996
+Ka 1.000000 1.000000 1.000000
+Kd 0.339360 0.426471 0.094074
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd F:\\Dropbox\\Overaction Game Studio\\Assets 2020 - Overaction\\Extracteds\\Desktop\\workspace\\Overaction Game Assets\\Assets\\LowPolyItens\\Materials\\Textures\\StoneTrigger.jpg
+
+newmtl CaveGround
+Ns 179.999996
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd F:\\Dropbox\\Overaction Game Studio\\Assets 2020 - Overaction\\Extracteds\\ModularCartoonAdventurePropsAndTilesetPack-v1.4\\Overaction\\ModularCartoonAdventurePropsAndTilesetPack\\Textures\\cave-ground.png
+map_d F:\\Dropbox\\Overaction Game Studio\\Assets 2020 - Overaction\\Extracteds\\ModularCartoonAdventurePropsAndTilesetPack-v1.4\\Overaction\\ModularCartoonAdventurePropsAndTilesetPack\\Textures\\cave-ground.png
+
+newmtl CaveGround2
+Ns 179.999996
+Ka 1.000000 1.000000 1.000000
+Kd 0.962264 0.918926 0.776166
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd F:\\Dropbox\\Overaction Game Studio\\Assets 2020 - Overaction\\Extracteds\\ModularCartoonAdventurePropsAndTilesetPack-v1.4\\Overaction\\ModularCartoonAdventurePropsAndTilesetPack\\Textures\\cave-ground.png
+map_d F:\\Dropbox\\Overaction Game Studio\\Assets 2020 - Overaction\\Extracteds\\ModularCartoonAdventurePropsAndTilesetPack-v1.4\\Overaction\\ModularCartoonAdventurePropsAndTilesetPack\\Textures\\cave-ground.png
+
+newmtl CaveRocks
+Ns 179.999996
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd F:\\Dropbox\\Overaction Game Studio\\Assets 2020 - Overaction\\Extracteds\\ModularCartoonAdventurePropsAndTilesetPack-v1.4\\Overaction\\ModularCartoonAdventurePropsAndTilesetPack\\Textures\\cave-Tile.png
+map_d F:\\Dropbox\\Overaction Game Studio\\Assets 2020 - Overaction\\Extracteds\\ModularCartoonAdventurePropsAndTilesetPack-v1.4\\Overaction\\ModularCartoonAdventurePropsAndTilesetPack\\Textures\\cave-Tile.png
+
+newmtl DungeonDoor
+Ns 179.999996
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd F:\\Dropbox\\Overaction Game Studio\\Assets 2020 - Overaction\\Extracteds\\ModularCartoonAdventurePropsAndTilesetPack-v1.4\\Overaction\\ModularCartoonAdventurePropsAndTilesetPack\\Textures\\StoneTexture.png
+map_d F:\\Dropbox\\Overaction Game Studio\\Assets 2020 - Overaction\\Extracteds\\ModularCartoonAdventurePropsAndTilesetPack-v1.4\\Overaction\\ModularCartoonAdventurePropsAndTilesetPack\\Textures\\StoneTexture.png
+
+newmtl DungeonProps
+Ns 179.999996
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd F:\\Dropbox\\Overaction Game Studio\\Assets 2020 - Overaction\\Extracteds\\ModularCartoonAdventurePropsAndTilesetPack-v1.4\\Overaction\\ModularCartoonAdventurePropsAndTilesetPack\\Textures\\DungeonProps.png
+map_d F:\\Dropbox\\Overaction Game Studio\\Assets 2020 - Overaction\\Extracteds\\ModularCartoonAdventurePropsAndTilesetPack-v1.4\\Overaction\\ModularCartoonAdventurePropsAndTilesetPack\\Textures\\DungeonProps.png
+
+newmtl DungeonStones
+Ns 179.999996
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd F:\\Dropbox\\Overaction Game Studio\\Assets 2020 - Overaction\\Extracteds\\ModularCartoonAdventurePropsAndTilesetPack-v1.4\\Overaction\\ModularCartoonAdventurePropsAndTilesetPack\\Textures\\MossStones_tex.png
+map_d F:\\Dropbox\\Overaction Game Studio\\Assets 2020 - Overaction\\Extracteds\\ModularCartoonAdventurePropsAndTilesetPack-v1.4\\Overaction\\ModularCartoonAdventurePropsAndTilesetPack\\Textures\\MossStones_tex.png
+
+newmtl Glass
+Ns 179.999996
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl Grass
+Ns 179.999996
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd F:\\Dropbox\\Overaction Game Studio\\Assets 2020 - Overaction\\Extracteds\\ModularCartoonAdventurePropsAndTilesetPack-v1.4\\Overaction\\ModularCartoonAdventurePropsAndTilesetPack\\Textures\\Grass.png
+map_d F:\\Dropbox\\Overaction Game Studio\\Assets 2020 - Overaction\\Extracteds\\ModularCartoonAdventurePropsAndTilesetPack-v1.4\\Overaction\\ModularCartoonAdventurePropsAndTilesetPack\\Textures\\Grass.png
+
+newmtl Grass.001
+Ns 179.999996
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd F:\\Dropbox\\Overaction Game Studio\\Assets 2020 - Overaction\\Extracteds\\ModularCartoonAdventurePropsAndTilesetPack-v1.4\\Overaction\\ModularCartoonAdventurePropsAndTilesetPack\\Textures\\Grass.png
+map_d F:\\Dropbox\\Overaction Game Studio\\Assets 2020 - Overaction\\Extracteds\\ModularCartoonAdventurePropsAndTilesetPack-v1.4\\Overaction\\ModularCartoonAdventurePropsAndTilesetPack\\Textures\\Grass.png
+
+newmtl Grass.002
+Ns 179.999996
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd F:\\Dropbox\\Overaction Game Studio\\Assets 2020 - Overaction\\Extracteds\\ModularCartoonAdventurePropsAndTilesetPack-v1.4\\Overaction\\ModularCartoonAdventurePropsAndTilesetPack\\Textures\\Grass.png
+map_d F:\\Dropbox\\Overaction Game Studio\\Assets 2020 - Overaction\\Extracteds\\ModularCartoonAdventurePropsAndTilesetPack-v1.4\\Overaction\\ModularCartoonAdventurePropsAndTilesetPack\\Textures\\Grass.png
+
+newmtl Grass.003
+Ns 179.999996
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd F:\\Dropbox\\Overaction Game Studio\\Assets 2020 - Overaction\\Extracteds\\ModularCartoonAdventurePropsAndTilesetPack-v1.4\\Overaction\\ModularCartoonAdventurePropsAndTilesetPack\\Textures\\Grass.png
+map_d F:\\Dropbox\\Overaction Game Studio\\Assets 2020 - Overaction\\Extracteds\\ModularCartoonAdventurePropsAndTilesetPack-v1.4\\Overaction\\ModularCartoonAdventurePropsAndTilesetPack\\Textures\\Grass.png
+
+newmtl Grass.004
+Ns 179.999996
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd F:\\Dropbox\\Overaction Game Studio\\Assets 2020 - Overaction\\Extracteds\\ModularCartoonAdventurePropsAndTilesetPack-v1.4\\Overaction\\ModularCartoonAdventurePropsAndTilesetPack\\Textures\\Grass.png
+map_d F:\\Dropbox\\Overaction Game Studio\\Assets 2020 - Overaction\\Extracteds\\ModularCartoonAdventurePropsAndTilesetPack-v1.4\\Overaction\\ModularCartoonAdventurePropsAndTilesetPack\\Textures\\Grass.png
+
+newmtl GrassHole
+Ns 179.999996
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd F:\\Dropbox\\Overaction Game Studio\\Assets 2020 - Overaction\\Extracteds\\ModularCartoonAdventurePropsAndTilesetPack-v1.4\\Overaction\\ModularCartoonAdventurePropsAndTilesetPack\\Textures\\Hole_Diff.png
+map_d F:\\Dropbox\\Overaction Game Studio\\Assets 2020 - Overaction\\Extracteds\\ModularCartoonAdventurePropsAndTilesetPack-v1.4\\Overaction\\ModularCartoonAdventurePropsAndTilesetPack\\Textures\\Hole_Diff.png
+
+newmtl GrassTileI
+Ns 179.999996
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd F:\\Dropbox\\Overaction Game Studio\\Assets 2020 - Overaction\\Extracteds\\Desktop\\workspace\\Overaction Game Assets\\Assets\\ModularLowPolyEnv\\Models\\Textures\\Grass-Sand_tile.png
+
+newmtl GrassTileII
+Ns 179.999996
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd F:\\Dropbox\\Overaction Game Studio\\Assets 2020 - Overaction\\Extracteds\\Desktop\\workspace\\Overaction Game Assets\\Assets\\ModularLowPolyEnv\\Models\\Textures\\Grass2-cave-corner.png
+
+newmtl GrassTileIII
+Ns 179.999996
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd F:\\Dropbox\\Overaction Game Studio\\Assets 2020 - Overaction\\Extracteds\\Desktop\\workspace\\Overaction Game Assets\\Assets\\ModularLowPolyEnv\\Models\\Textures\\Grass2-lateral.png
+
+newmtl Grass_1
+Ns 179.999996
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd F:\\Dropbox\\Overaction Game Studio\\Assets 2020 - Overaction\\Extracteds\\ModularCartoonAdventurePropsAndTilesetPack-v1.4\\Overaction\\ModularCartoonAdventurePropsAndTilesetPack\\Textures\\Grass.png
+map_d F:\\Dropbox\\Overaction Game Studio\\Assets 2020 - Overaction\\Extracteds\\ModularCartoonAdventurePropsAndTilesetPack-v1.4\\Overaction\\ModularCartoonAdventurePropsAndTilesetPack\\Textures\\Grass.png
+
+newmtl GroundTile
+Ns 179.999996
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd F:\\Dropbox\\Overaction Game Studio\\Assets 2020 - Overaction\\Extracteds\\ModularCartoonAdventurePropsAndTilesetPack-v1.4\\Overaction\\ModularCartoonAdventurePropsAndTilesetPack\\Textures\\DungeonGridGround.png
+map_d F:\\Dropbox\\Overaction Game Studio\\Assets 2020 - Overaction\\Extracteds\\ModularCartoonAdventurePropsAndTilesetPack-v1.4\\Overaction\\ModularCartoonAdventurePropsAndTilesetPack\\Textures\\DungeonGridGround.png
+
+newmtl LPollyPallete
+Ns 179.999996
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd F:\\Dropbox\\Overaction Game Studio\\Assets 2020 - Overaction\\Extracteds\\ModularCartoonAdventurePropsAndTilesetPack-v1.4\\Overaction\\ModularCartoonAdventurePropsAndTilesetPack\\Textures\\Wood_textura.png
+map_d F:\\Dropbox\\Overaction Game Studio\\Assets 2020 - Overaction\\Extracteds\\ModularCartoonAdventurePropsAndTilesetPack-v1.4\\Overaction\\ModularCartoonAdventurePropsAndTilesetPack\\Textures\\Wood_textura.png
+
+newmtl LPolyPalete
+Ns 179.999996
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd F:\\Dropbox\\Overaction Game Studio\\Assets 2020 - Overaction\\Extracteds\\ModularCartoonAdventurePropsAndTilesetPack-v1.4\\Overaction\\ModularCartoonAdventurePropsAndTilesetPack\\Textures\\LPolyPallete.png
+map_d F:\\Dropbox\\Overaction Game Studio\\Assets 2020 - Overaction\\Extracteds\\ModularCartoonAdventurePropsAndTilesetPack-v1.4\\Overaction\\ModularCartoonAdventurePropsAndTilesetPack\\Textures\\LPolyPallete.png
+
+newmtl LPolyPallete
+Ns 179.999996
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd F:\\Dropbox\\Overaction Game Studio\\Assets 2020 - Overaction\\Extracteds\\ModularCartoonAdventurePropsAndTilesetPack-v1.4\\Overaction\\ModularCartoonAdventurePropsAndTilesetPack\\Textures\\LPolyPallete.png
+map_d F:\\Dropbox\\Overaction Game Studio\\Assets 2020 - Overaction\\Extracteds\\ModularCartoonAdventurePropsAndTilesetPack-v1.4\\Overaction\\ModularCartoonAdventurePropsAndTilesetPack\\Textures\\LPolyPallete.png
+
+newmtl Lava
+Ns 179.999996
+Ka 1.000000 1.000000 1.000000
+Kd 0.669550 0.821546 0.948529
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd F:\\Dropbox\\Overaction Game Studio\\Assets 2020 - Overaction\\Extracteds\\ModularCartoonAdventurePropsAndTilesetPack-v1.4\\Overaction\\ModularCartoonAdventurePropsAndTilesetPack\\Textures\\LavaTexture.png
+map_d F:\\Dropbox\\Overaction Game Studio\\Assets 2020 - Overaction\\Extracteds\\ModularCartoonAdventurePropsAndTilesetPack-v1.4\\Overaction\\ModularCartoonAdventurePropsAndTilesetPack\\Textures\\LavaTexture.png
+
+newmtl Liquid
+Ns 179.999996
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd F:\\Dropbox\\Overaction Game Studio\\Assets 2020 - Overaction\\Extracteds\\ModularCartoonAdventurePropsAndTilesetPack-v1.4\\Overaction\\ModularCartoonAdventurePropsAndTilesetPack\\Textures\\LPolyPallete.png
+map_d F:\\Dropbox\\Overaction Game Studio\\Assets 2020 - Overaction\\Extracteds\\ModularCartoonAdventurePropsAndTilesetPack-v1.4\\Overaction\\ModularCartoonAdventurePropsAndTilesetPack\\Textures\\LPolyPallete.png
+
+newmtl RockGrass
+Ns 179.999996
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd F:\\Dropbox\\Overaction Game Studio\\Assets 2020 - Overaction\\Extracteds\\ModularCartoonAdventurePropsAndTilesetPack-v1.4\\Overaction\\ModularCartoonAdventurePropsAndTilesetPack\\Textures\\Grass_Rocks.jpg.png
+map_d F:\\Dropbox\\Overaction Game Studio\\Assets 2020 - Overaction\\Extracteds\\ModularCartoonAdventurePropsAndTilesetPack-v1.4\\Overaction\\ModularCartoonAdventurePropsAndTilesetPack\\Textures\\Grass_Rocks.jpg.png
+
+newmtl SmallRock
+Ns 179.999996
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd F:\\Dropbox\\Overaction Game Studio\\Assets 2020 - Overaction\\Extracteds\\ModularCartoonAdventurePropsAndTilesetPack-v1.4\\Overaction\\ModularCartoonAdventurePropsAndTilesetPack\\Textures\\SmallRock_Tex.png
+map_d F:\\Dropbox\\Overaction Game Studio\\Assets 2020 - Overaction\\Extracteds\\ModularCartoonAdventurePropsAndTilesetPack-v1.4\\Overaction\\ModularCartoonAdventurePropsAndTilesetPack\\Textures\\SmallRock_Tex.png
+
+newmtl SpellBottle
+Ns 179.999996
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd F:\\Dropbox\\Overaction Game Studio\\Assets 2020 - Overaction\\Extracteds\\Desktop\\workspace\\Overaction Game Assets\\Assets\\LowPolyItens\\Materials\\spellBottle.png
+
+newmtl TileMap
+Ns 179.999996
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd F:\\Dropbox\\Overaction Game Studio\\Assets 2020 - Overaction\\Extracteds\\ModularCartoonAdventurePropsAndTilesetPack-v1.4\\Overaction\\ModularCartoonAdventurePropsAndTilesetPack\\Textures\\DungeonOneTile.png
+map_d F:\\Dropbox\\Overaction Game Studio\\Assets 2020 - Overaction\\Extracteds\\ModularCartoonAdventurePropsAndTilesetPack-v1.4\\Overaction\\ModularCartoonAdventurePropsAndTilesetPack\\Textures\\DungeonOneTile.png
+
+newmtl TileMap_1
+Ns 179.999996
+Ka 1.000000 1.000000 1.000000
+Kd 0.879271 0.860294 0.860294
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd F:\\Dropbox\\Overaction Game Studio\\Assets 2020 - Overaction\\Extracteds\\ModularCartoonAdventurePropsAndTilesetPack-v1.4\\Overaction\\ModularCartoonAdventurePropsAndTilesetPack\\Textures\\DungeonOneTile.png
+map_d F:\\Dropbox\\Overaction Game Studio\\Assets 2020 - Overaction\\Extracteds\\ModularCartoonAdventurePropsAndTilesetPack-v1.4\\Overaction\\ModularCartoonAdventurePropsAndTilesetPack\\Textures\\DungeonOneTile.png
+
+newmtl ToonWater
+Ns 179.999996
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl UV_baculo_Shaman
+Ns 179.999996
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd F:\\Dropbox\\Overaction Game Studio\\Assets 2020 - Overaction\\Extracteds\\ModularCartoonAdventurePropsAndTilesetPack-v1.4\\Overaction\\ModularCartoonAdventurePropsAndTilesetPack\\Textures\\Skull_Head_tex.png
+map_d F:\\Dropbox\\Overaction Game Studio\\Assets 2020 - Overaction\\Extracteds\\ModularCartoonAdventurePropsAndTilesetPack-v1.4\\Overaction\\ModularCartoonAdventurePropsAndTilesetPack\\Textures\\Skull_Head_tex.png
+
+newmtl Vase1
+Ns 179.999996
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd F:\\Dropbox\\Overaction Game Studio\\Assets 2020 - Overaction\\Extracteds\\Desktop\\workspace\\Overaction Game Assets\\Assets\\LowPolyItens\\Materials\\Textures\\Vase.png
+
+newmtl Water
+Ns 179.999996
+Ka 1.000000 1.000000 1.000000
+Kd 0.669550 0.821546 0.948529
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd F:\\Dropbox\\Overaction Game Studio\\Assets 2020 - Overaction\\Extracteds\\ModularCartoonAdventurePropsAndTilesetPack-v1.4\\Overaction\\ModularCartoonAdventurePropsAndTilesetPack\\Textures\\Water.png
+map_d F:\\Dropbox\\Overaction Game Studio\\Assets 2020 - Overaction\\Extracteds\\ModularCartoonAdventurePropsAndTilesetPack-v1.4\\Overaction\\ModularCartoonAdventurePropsAndTilesetPack\\Textures\\Water.png
+
+newmtl chestbox
+Ns 179.999996
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd F:\\Dropbox\\Overaction Game Studio\\Assets 2020 - Overaction\\Extracteds\\Desktop\\workspace\\Overaction Game Assets\\Assets\\LowPolyItens\\Materials\\Textures\\Chest_tex.png
+
+newmtl green_forest_tree_1Material
+Ns 179.999996
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd F:\\Dropbox\\Overaction Game Studio\\Assets 2020 - Overaction\\Extracteds\\ModularCartoonAdventurePropsAndTilesetPack-v1.4\\Overaction\\ModularCartoonAdventurePropsAndTilesetPack\\Textures\\Grass.png
+map_d F:\\Dropbox\\Overaction Game Studio\\Assets 2020 - Overaction\\Extracteds\\ModularCartoonAdventurePropsAndTilesetPack-v1.4\\Overaction\\ModularCartoonAdventurePropsAndTilesetPack\\Textures\\Grass.png
+
+newmtl lambert13
+Ns 179.999996
+Ka 1.000000 1.000000 1.000000
+Kd 0.500000 0.500000 0.500000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl totem
+Ns 179.999996
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd F:\\Dropbox\\Overaction Game Studio\\Assets 2020 - Overaction\\Extracteds\\ModularCartoonAdventurePropsAndTilesetPack-v1.4\\Overaction\\ModularCartoonAdventurePropsAndTilesetPack\\Textures\\Totem.png
+map_d F:\\Dropbox\\Overaction Game Studio\\Assets 2020 - Overaction\\Extracteds\\ModularCartoonAdventurePropsAndTilesetPack-v1.4\\Overaction\\ModularCartoonAdventurePropsAndTilesetPack\\Textures\\Totem.png
