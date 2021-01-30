@@ -63,6 +63,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\GamePlay\Scripts\MouseHandler.cs" />
+    <Compile Include="Assets\GamePlay\Scripts\NPC.cs" />
     <Compile Include="Assets\GamePlay\Scripts\playerScript.cs" />
     <Compile Include="Assets\JSON\JSONObject.cs" />
     <Compile Include="Assets\JSON\VectorTemplates.cs" />
