@@ -16,7 +16,7 @@ MonoBehaviour:
   settings:
     renderPassEvent: 600
     overlayTexture: {fileID: 2800000, guid: f6af6cb034029ad45b7e459b9313307c, type: 3}
-    overlayColor: {r: 0.4772606, g: 0.58007157, b: 0.7075472, a: 1}
+    overlayColor: {r: 0.8301887, g: 0.55205053, b: 0.30153078, a: 1}
     xTileCount: 206
     usePointFiltering: 1
 --- !u!114 &-6542710765257619987
@@ -35,10 +35,10 @@ MonoBehaviour:
   settings:
     renderPassEvent: 600
     drawingTex: {fileID: 2800000, guid: 0470b47d7fd2cdc47854c7841bb023cb, type: 3}
-    animCycleTime: 1.86
+    animCycleTime: 4.56
     strength: 0.178
     tiling: 23.8
-    smudge: 0.005
+    smudge: 0
     depthThreshold: 0.574
 --- !u!114 &-5969149863166216586
 MonoBehaviour:
@@ -71,7 +71,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2aa232402f7d4449959f90fe32e84ad, type: 3}
   m_Name: Sobel Neon
   m_EditorClassIdentifier: 
-  m_Active: 1
+  m_Active: 0
   settings:
     renderPassEvent: 600
     saturationFloor: 0.364
