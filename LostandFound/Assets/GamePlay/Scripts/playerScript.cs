@@ -48,4 +48,3 @@ public class playerScript : MonoBehaviour
         pControls.Move(velocity * Time.deltaTime);
     }
 }
-
