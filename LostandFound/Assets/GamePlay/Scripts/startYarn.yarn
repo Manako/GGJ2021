@@ -1,16 +1,16 @@
 title: Start2
-tags: 
+tags:
 colorID: 1
 position: 765,382
 ---
-You have the heard of an explorer, surely you will find the way out. #line:0686bed
+You have the heart of an explorer, surely you will find the way out. #line:0686bed
 //<<set $personality = explorer>>
-[[ I know I will!: |endstart]] ]] #line:04c3fea #line:0091d8d
+[[I know I will!|endstart]] #line:04c3fea #line:0091d8d
 ===
 title: Start
-tags: 
+tags:
 colorID: 0
-position: 406,346
+position: 299,230
 ---
 You find yourself in a strange place. How did you get here and a better question -- How do you leave? #line:0f827b7
 
@@ -18,32 +18,32 @@ You find yourself in a strange place. How did you get here and a better question
 [[ Maybe its not so bad here? |Start3]] #line:0fd5e3a
 ===
 title: Start3
-tags: 
+tags:
 colorID: 0
-position: 765,108
+position: 767,108
 ---
 You will have to examine the area to evaluate if you're safe to stay here.  #line:0e5c7bf
 //<<set $personality = homebody>>
 [[ Definitely Important, I can do this! |endstart]] #line:0b5f97a
 ===
 title: endstart
-tags: 
+tags:
 colorID: 0
-position: 1156,233
+position: 1267,295
 ---
-Maybe while you are getting your bearings you'll be able to figure out how you got here. #line:09786a2
+While you are get your bearings you'll be able to learn how you got here. Press SPACE to jump Press e to interact#line:09786a2
 ===
 title: object1
-tags: 
+tags:
 colorID: 0
-position: 1156,233
+position: 1703,187
 ---
 This is an object. It is object 1! Click to continue.
 ===
 title: object2
-tags: 
+tags:
 colorID: 0
-position: 1156,233
+position: 1430,562
 ---
 Object 2!! Click to continue.
 ===
@@ -53,4 +53,30 @@ colorID: 0
 position: 1156,233
 ---
 Default Object Message
+===
+title: signpost
+tags:
+colorID: 0
+position: 1209,1508
+---
+View help or credits?
+[[ help |help]]
+[[ credits |credits]]
+===
+title: help
+tags:
+colorID: 0
+position: 872,687
+---
+Press SPACE to jump
+Press e to interact
+===
+title: credits
+tags:
+colorID: 0
+position: 99,1087
+---
+Created by Amanda Kirk and Megan Matiz
+3D models provided by Kay Kit
+project created using Unity, Yarnspinner & Snapshot Pro
 ===
