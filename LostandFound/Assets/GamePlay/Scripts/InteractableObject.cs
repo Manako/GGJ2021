@@ -5,7 +5,6 @@ using Yarn.Unity;
 
 public class InteractableObject : MonoBehaviour
 {
-    [SerializeField] string yarnStartNode = "Start";
     [SerializeField] YarnProgram yarnDialog;
     public string targetNode = "";
     [Header("Optional")]
