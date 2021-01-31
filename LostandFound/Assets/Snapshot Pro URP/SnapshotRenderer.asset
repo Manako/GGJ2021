@@ -16,8 +16,8 @@ MonoBehaviour:
   settings:
     renderPassEvent: 600
     overlayTexture: {fileID: 2800000, guid: f6af6cb034029ad45b7e459b9313307c, type: 3}
-    overlayColor: {r: 0.15886435, g: 0.3207547, b: 0.21799977, a: 1}
-    xTileCount: 279
+    overlayColor: {r: 0.99215686, g: 0.58431375, b: 0.9536637, a: 1}
+    xTileCount: 206
     usePointFiltering: 1
 --- !u!114 &-6542710765257619987
 MonoBehaviour:
@@ -35,9 +35,9 @@ MonoBehaviour:
   settings:
     renderPassEvent: 600
     drawingTex: {fileID: 2800000, guid: 0470b47d7fd2cdc47854c7841bb023cb, type: 3}
-    animCycleTime: 0.64
-    strength: 0.34
-    tiling: 17.6
+    animCycleTime: 0.06
+    strength: 0.507
+    tiling: 13.9
     smudge: 0.005
     depthThreshold: 0.574
 --- !u!114 &-5969149863166216586
@@ -56,7 +56,7 @@ MonoBehaviour:
   settings:
     renderPassEvent: 600
     noiseTex: {fileID: 2800000, guid: 26218f8dbdadf93499b29b3ecbd91e10, type: 3}
-    noiseSize: 0.6
+    noiseSize: 0.1
     darkColor: {r: 0.07231222, g: 0.23584908, b: 0.13281327, a: 1}
     lightColor: {r: 1, g: 0.99469745, b: 0.740566, a: 1}
 --- !u!114 &-3144749776601182173
@@ -74,8 +74,8 @@ MonoBehaviour:
   m_Active: 1
   settings:
     renderPassEvent: 600
-    saturationFloor: 0.75
-    lightnessFloor: 0.75
+    saturationFloor: 0.364
+    lightnessFloor: 0.826
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
