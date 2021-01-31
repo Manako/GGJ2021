@@ -1,5 +1,81 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6935029903250172400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9828f52f24a30743a9d6df20372ab33, type: 3}
+  m_Name: Mosaic
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  settings:
+    renderPassEvent: 600
+    overlayTexture: {fileID: 2800000, guid: f6af6cb034029ad45b7e459b9313307c, type: 3}
+    overlayColor: {r: 1, g: 0.3803922, b: 0.92691016, a: 1}
+    xTileCount: 279
+    usePointFiltering: 1
+--- !u!114 &-6542710765257619987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db4acdecba5a2c746855e84b0db06f8f, type: 3}
+  m_Name: Drawing
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  settings:
+    renderPassEvent: 600
+    drawingTex: {fileID: 2800000, guid: 0470b47d7fd2cdc47854c7841bb023cb, type: 3}
+    animCycleTime: 0.64
+    strength: 0.34
+    tiling: 17.6
+    smudge: 0.005
+    depthThreshold: 0.574
+--- !u!114 &-5969149863166216586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848cdb1153ebfd6489cd34268b50275a, type: 3}
+  m_Name: Basic Dither
+  m_EditorClassIdentifier: 
+  m_Active: 0
+  settings:
+    renderPassEvent: 600
+    noiseTex: {fileID: 2800000, guid: 26218f8dbdadf93499b29b3ecbd91e10, type: 3}
+    noiseSize: 0.6
+    darkColor: {r: 0.07231222, g: 0.23584908, b: 0.13281327, a: 1}
+    lightColor: {r: 1, g: 0.99469745, b: 0.740566, a: 1}
+--- !u!114 &-3144749776601182173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2aa232402f7d4449959f90fe32e84ad, type: 3}
+  m_Name: Sobel Neon
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  settings:
+    renderPassEvent: 600
+    saturationFloor: 0.75
+    lightnessFloor: 0.75
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12,8 +88,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de640fe3d0db1804a85f9fc8f5cadab6, type: 3}
   m_Name: SnapshotRenderer
   m_EditorClassIdentifier: 
-  m_RendererFeatures: []
-  m_RendererFeatureMap: 
+  m_RendererFeatures:
+  - {fileID: -6935029903250172400}
+  - {fileID: -3144749776601182173}
+  - {fileID: -6542710765257619987}
+  - {fileID: -5969149863166216586}
+  m_RendererFeatureMap: 10d60fde0bd3c19f23903262bd9a5bd4ed05b248399f33a576f6e74ad35129ad
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
   shaders:
     blitPS: {fileID: 4800000, guid: c17132b1f77d20942aa75f8429c0f8bc, type: 3}
