@@ -47,6 +47,13 @@ position: 1430,562
 ---
 Object 2!! Click to continue.
 ===
+title: defaultobject
+tags: 
+colorID: 0
+position: 1156,233
+---
+Default Object Message
+===
 title: signpost
 tags:
 colorID: 0
