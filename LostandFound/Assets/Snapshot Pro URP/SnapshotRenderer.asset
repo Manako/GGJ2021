@@ -16,7 +16,7 @@ MonoBehaviour:
   settings:
     renderPassEvent: 600
     overlayTexture: {fileID: 2800000, guid: f6af6cb034029ad45b7e459b9313307c, type: 3}
-    overlayColor: {r: 1, g: 0.3803922, b: 0.92691016, a: 1}
+    overlayColor: {r: 0.15886435, g: 0.3207547, b: 0.21799977, a: 1}
     xTileCount: 279
     usePointFiltering: 1
 --- !u!114 &-6542710765257619987
