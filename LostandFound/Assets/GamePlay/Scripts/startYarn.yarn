@@ -1,16 +1,16 @@
 title: Start2
-tags:
+tags: 
 colorID: 1
-position: 765,382
+position: 240,-60
 ---
 You have the heart of an explorer, surely you will find the way out. #line:0686bed
 //<<set $personality = explorer>>
 [[I know I will!|endstart]] #line:04c3fea #line:0091d8d
 ===
 title: Start
-tags:
+tags: 
 colorID: 0
-position: 299,230
+position: -120,-300
 ---
 You find yourself in a strange place. How did you get here and a better question -- How do you leave? #line:0f827b7
 
@@ -18,30 +18,30 @@ You find yourself in a strange place. How did you get here and a better question
 [[ Maybe its not so bad here? |Start3]] #line:0fd5e3a
 ===
 title: Start3
-tags:
+tags: 
 colorID: 0
-position: 767,108
+position: 300,-360
 ---
 You will have to examine the area to evaluate if you're safe to stay here.  #line:0e5c7bf
 //<<set $personality = homebody>>
 [[ Definitely Important, I can do this! |endstart]] #line:0b5f97a
 ===
 title: endstart
-tags:
+tags: 
 colorID: 0
-position: 1267,295
+position: 660,-240
 ---
 While you are get your bearings you'll be able to learn how you got here. Press SPACE to jump Press e to interact#line:09786a2
 ===
 title: object1
-tags:
+tags: 
 colorID: 0
 position: 1703,187
 ---
 This is an object. It is object 1! Click to continue.
 ===
 title: object2
-tags:
+tags: 
 colorID: 0
 position: 1430,562
 ---
@@ -50,33 +50,160 @@ Object 2!! Click to continue.
 title: defaultobject
 tags: 
 colorID: 0
-position: 1156,233
+position: 1680,-60
 ---
 Default Object Message
 ===
 title: signpost
-tags:
+tags: 
 colorID: 0
-position: 1209,1508
+position: 420,420
 ---
 View help or credits?
 [[ help |help]]
 [[ credits |credits]]
 ===
 title: help
-tags:
+tags: 
 colorID: 0
-position: 872,687
+position: 660,720
 ---
 Press SPACE to jump
 Press e to interact
 ===
 title: credits
-tags:
+tags: 
 colorID: 0
-position: 99,1087
+position: 300,720
 ---
 Created by Amanda Kirk and Megan Matiz
 3D models provided by Kay Kit
 project created using Unity, Yarnspinner & Snapshot Pro
+===
+title: grave
+tags: 
+colorID: 0
+position: -240,300
+---
+You find a grave, Do you read who it belongs to?
+[[ yes |readgrave]]
+[[ no |noreadgrave]]
+===
+title: readgrave
+tags: 
+colorID: 0
+position: -240,600
+---
+Here lies the great Candace.
+===
+title: noreadgrave
+tags: 
+colorID: 0
+position: 60,600
+---
+You back away from the grave, do you really want to know who lies there.
+===
+title: throne
+tags: 
+colorID: 0
+position: 1080,-120
+---
+An empty throne, next to is is a chalice.
+[[ chalice: |chalice]]
+[[ throne: |throne2]]
+===
+title: chalice
+tags: 
+colorID: 0
+position: 900,180
+---
+The chalice is empty, at the bottom you can see the stains from the red wine that used to be here
+===
+title: throne2
+tags: 
+colorID: 0
+position: 1200,180
+---
+The throne looks empty at first but you notice there is a very small piece of beef jerky wedged behind the seat
+===
+title: coins
+tags: 
+colorID: 0
+position: 1260,900
+---
+This is a table filled with coins and gems, as well as a large ledger
+[[read the ledger |readledger]]
+[[look at the riches |riches]]
+===
+title: readledger
+tags: 
+colorID: 0
+position: 1080,1200
+---
+Each line has list of names and what they brought to their liege
+===
+title: riches
+tags: 
+colorID: 0
+position: 1440,1140
+---
+There is quite a pile of riches spread before you,coins and gems the likes of which you've never seen
+[[ count the coins |coins2]]
+[[ look at the gems|gems]]
+===
+title: gems
+tags: 
+colorID: 0
+position: 1860,1260
+---
+The clearest bluest gems
+===
+title: coins2
+tags: 
+colorID: 0
+position: 1440,1440
+---
+It would be a huge waste of time to count these coins, You could always check the ledger
+===
+title: Shrine
+tags: 
+colorID: 0
+position: 0,1020
+---
+There is a small shrine where the people of the castle can come to collect their thoughts.
+===
+title: Axe
+tags: 
+colorID: 0
+position: 380,1100
+---
+A woodcutter's axe embedded in a log. Surely they meant to come back to their work.
+===
+title: Rat
+tags: 
+colorID: 0
+position: -460,1040
+---
+Eww, a rat!
+===
+title: Wine
+tags: 
+colorID: 0
+position: -940,380
+---
+This is a barrel of wine
+===
+title: Cauldron
+tags: 
+colorID: 0
+position: -760,740
+---
+A cauldron, still piping with a noxious brew.
+===
+title: Skull
+tags: 
+colorID: 0
+position: -540,0
+---
+What an odd decoration to keep by the bedside
 ===
