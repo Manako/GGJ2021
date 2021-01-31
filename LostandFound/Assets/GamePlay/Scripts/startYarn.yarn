@@ -3,33 +3,47 @@ tags:
 colorID: 1
 position: 765,382
 ---
-You have the heard of an explorer, surely you will find the way out.
+You have the heard of an explorer, surely you will find the way out. #line:0686bed
 //<<set $personality = explorer>>
-[[ I know I will!: |endstart]] ]]
+[[ I know I will!: |endstart]] ]] #line:04c3fea #line:0091d8d
 ===
 title: Start
 tags: 
 colorID: 0
 position: 406,346
 ---
-You find ourself in a strange place. How did you get here and a better question -- How do you leave?
+You find yourself in a strange place. How did you get here and a better question -- How do you leave? #line:0f827b7
 
-[[ I will explore |Start2]] 
-[[ Maybe its not so bad here? |Start3]]
+[[ I will explore |Start2]]  #line:0c679a6
+[[ Maybe its not so bad here? |Start3]] #line:0fd5e3a
 ===
 title: Start3
 tags: 
 colorID: 0
 position: 765,108
 ---
-You will have to examine the area to evaluate if you're safe to stay here. 
+You will have to examine the area to evaluate if you're safe to stay here.  #line:0e5c7bf
 //<<set $personality = homebody>>
-[[ Definitely Important, I can do this! |endstart]]
+[[ Definitely Important, I can do this! |endstart]] #line:0b5f97a
 ===
 title: endstart
 tags: 
 colorID: 0
 position: 1156,233
 ---
-Maybe while you are getting your bearings you'll be able to figure out how you got here.
+Maybe while you are getting your bearings you'll be able to figure out how you got here. #line:09786a2
+===
+title: object1
+tags: 
+colorID: 0
+position: 1156,233
+---
+This is an object. It is object 1! Click to continue.
+===
+title: object2
+tags: 
+colorID: 0
+position: 1156,233
+---
+Object 2!! Click to continue.
 ===

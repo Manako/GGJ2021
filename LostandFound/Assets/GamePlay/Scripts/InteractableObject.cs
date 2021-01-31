@@ -7,14 +7,19 @@ public class InteractableObject : MonoBehaviour
 {
     [SerializeField] string yarnStartNode = "Start";
     [SerializeField] YarnProgram yarnDialog;
-    public YarnProgram scriptToLoad;
     public string targetNode = "";
-    public string characterName = "";
+    [Header("Optional")]
+    public YarnProgram scriptToLoad;
 
     // Start is called before the first frame update
     void Start()
     {
+        if (scriptToLoad != null)
+        {
+            DialogueRunner dialogueRunner = FindObjectOfType<Yarn.Unity.DialogueRunner>();
+            dialogueRunner.Add(scriptToLoad);
 
+        }
     }
 
     // Update is called once per frame
