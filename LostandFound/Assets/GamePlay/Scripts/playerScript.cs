@@ -1,10 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Yarn.Unity;
 
 public class playerScript : MonoBehaviour
 
 {
+    public YarnProgram scriptToLoad;
     [SerializeField] string yarnStartNode = "Start";
     [SerializeField] YarnProgram yarnDialog;
     public CharacterController pControls;
@@ -56,19 +58,25 @@ public class playerScript : MonoBehaviour
         {
             CheckForNearbyNPC();
         }
+
+        // check if the input is "e" and isTriggered=true
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            CheckForNearbyNPC();
+        }
     }
     public void CheckForNearbyNPC()
     {
-        var allParticipants = new List<NPC>(FindObjectsOfType<NPC>());
-        var target = allParticipants.Find(delegate (NPC p) {
-            return string.IsNullOrEmpty(p.talkToNode) == false && // has a conversation node?
+        var allParticipants = new List<InteractableObject>(FindObjectsOfType<InteractableObject>());
+        var target = allParticipants.Find(delegate (InteractableObject p) {
+            return string.IsNullOrEmpty(p.targetNode) == false && // has a conversation node?
             (p.transform.position - this.transform.position)// is in range?
             .magnitude <= interactionRadius;
         });
         if (target != null)
         {
             // Kick off the dialogue at this node.
-            // FindObjectOfType<DialogueRunner>().StartDialogue(target.talkToNode);
+            FindObjectOfType<DialogueRunner>().StartDialogue(target.targetNode);
         }
     }
 }
