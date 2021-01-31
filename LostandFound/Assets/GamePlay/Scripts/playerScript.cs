@@ -7,7 +7,6 @@ public class playerScript : MonoBehaviour
 
 {
     public YarnProgram scriptToLoad;
-    [SerializeField] string yarnStartNode = "Start";
     [SerializeField] YarnProgram yarnDialog;
     public CharacterController pControls;
     public float speed = 12f;
