@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using Yarn.Unity;
 
 public class playerScript : MonoBehaviour
@@ -25,6 +26,7 @@ public class playerScript : MonoBehaviour
 
     private void Start()
     {
+        SceneManager.LoadScene("Environment", LoadSceneMode.Additive);
 
     }
 
